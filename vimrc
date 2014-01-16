@@ -180,6 +180,16 @@ map <silent> <LocalLeader>ws :highlight clear ExtraWhitespace<CR>
 
 imap <C-L> <SPACE>=><SPACE>
 
+" ========= Normal Shortcuts ========
+
+" Quick Tab
+nmap gnt :tabnew<CR>
+
+" Quick Save
+map ZS :w<CR>
+" Typo Save
+abbr W w
+
 " ========= Functions ========
 
 command SudoW w !sudo tee %
